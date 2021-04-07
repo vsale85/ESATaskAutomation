@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="esaTaskTest.DynamicPropertiesTest"/>
+      <class name="esaTaskTest.InteractionsTest"/>
+      <class name="esaTaskTest.AlertsFrameTest"/>
+      <class name="esaTaskTest.PracticeFormTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
